@@ -1,0 +1,33 @@
+.webuploader-container {
+    position: relative;
+}
+.webuploader-element-invisible {
+    position: absolute !important;
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+    font-weight: 400;
+    font-size:14px;
+    border-radius: 4px;
+    padding: 6px 12px;
+    text-align: center;
+    overflow: hidden;
+}
+.webuploader-pick-hover {
+    background-color: #398439;
+    border-color: #255625;
+}
+.webuploader-pick-disable {
+    opacity: 0.6;
+    pointer-events:none;
+}
+.webuploader-status-progress{display:inline-block;width:200px;height:14px;border-radius:4px;border:1px solid #ccc;line-height:4px;margin-right:5px;padding:2px}
+.webuploader-status-progress i{display:inline-block;width:0%;height:100%;border-radius:4px;background:#71c371}
+.webuploader-status-name{margin-right:5px}
+.webuploader-status-item{margin-bottom:10px;}
