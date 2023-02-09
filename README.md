@@ -9,8 +9,15 @@ http://employees.000081.xyz/
 # 项目部署
 ## 1.解压项目部署到Laravel环境网站上  
 ## 2.将项目下.env.example改为.env文件  
-## 3.修改.env文件中的数据库配置信息  
-## 4.mysql中创建新的数据库  
+## 3.mysql中创建新的数据库  
+## 4.修改.env文件中的数据库配置信息  
+```env
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=root
+```
 ## 5.恢复伪静态文件  
 ### 5.1 nginx伪静态  
 ```conf
