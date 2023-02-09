@@ -4,7 +4,7 @@
 # 网站演示
 http://employees.000081.xyz/  
 账号：admin  
-密码：12345  
+密码：123456  
 
 # 项目部署
 ## 1.解压项目部署到Laravel环境网站上  
@@ -64,11 +64,11 @@ composer install
 php artisan migrate
 ```
 
-## 8.填充种子文件数据
+## 8.填充种子文件数据（如果想修改管理员账号密码去AllTableSeeder修改）
 ```bash
 php artisan db:seed --class=AllTableSeeder
 ```
 
 ## 进入网站测试
 账号：admin  
-密码：12345  
+密码：123456  
